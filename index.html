@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOM 305</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Cuestionarios a aplicar</h1>
+        <div class="content--instructions">
+            <img src="./formulaNOM035.png" alt="formula">
+            <div>
+                <p>Donde: </p>
+                <p>N es el número total de trabajadores del centro de trabajo</p>
+                <p>n es el número de trabajadores a los que se les deberán aplicarán los cuestionarios.
+                    0.9604 y 0.0025 permanecen constantes</p>
+            </div>
+
+        </div>
+        <div class="content--form">
+            <form action="">
+                <label for="empleados">Total de trabajadores:</label>
+                <input id="empleados" type="number" placeholder="Ingresa un número mayor a 0">
+
+                <div class="form--buttons">
+                    <button class="btnCA" type="button" id="btnLimpiar">Limpiar</button>
+                </div>
+            </form>
+            <div>
+                <p>Muestra: <span id="resultado"></span></p>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
